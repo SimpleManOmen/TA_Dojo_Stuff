@@ -1,0 +1,82 @@
+body {
+    background-color: bisque;
+}
+
+#title {
+    text-align: center;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgshare.io%2Fimages%2F2019%2F07%2F10%2F3133fd17c5e4d090-blue-color-background-animated-gifs-photobucket.gif&f=1&nofb=1");
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#soughtPoke {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 15px;
+}
+
+#myPoke {
+    /* text-align: center; */
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    border: none;
+    box-shadow: 0 0 10px 5px rgb(212, 108, 143) inset;
+    border: 1px solid pink;
+    border-radius: 100%;
+    align-self: center;
+    margin: 5px;
+}
+
+#morePokes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#searchForm {
+    margin: 10px;
+}
+
+#addsPokes {
+    text-align: center;
+    color: transparent;
+    border: 10px outset lightblue;
+    padding: 10px;
+    background-image: url("bg2.webp");
+    -webkit-background-clip: text;
+    margin-right: 10px;
+}
+
+#showPokes {
+    text-align: center;
+    color: transparent;
+    border: 10px outset lightblue;
+    padding: 10px;
+    background-image: url("bg4.gif");
+    -webkit-background-clip: text;
+    margin-right: 10px;
+    
+}
+
+.anotherPoke {
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* h1 {
+    text-align: center;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgshare.io%2Fimages%2F2019%2F07%2F10%2F3133fd17c5e4d090-blue-color-background-animated-gifs-photobucket.gif&f=1&nofb=1");
+    color: transparent;
+    -webkit-background-clip: text;
+} */
