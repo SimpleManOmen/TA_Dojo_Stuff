@@ -28,7 +28,7 @@ const fetchPokemon = (num) => {
     `)})
     .catch(err => console.log(err))
     
-}
+}   
 
 // Hides title
 
